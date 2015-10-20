@@ -47,14 +47,14 @@ BEGIN
     BEGIN
         BLOCK "000004b0"
         BEGIN
-            VALUE "Comments", "Active Directory authentication for UltraVNC\0"
+            VALUE "Comments", "Active Directory authentication for CopilotVNC\0"
             VALUE "CompanyName", STR_COMPANYNAME
-            VALUE "FileDescription", "MS-Logon I for UltraVNC\0"
+            VALUE "FileDescription", "MS-Logon I for CopilotVNC\0"
             VALUE "FileVersion", STR_FILEVERSION
             VALUE "InternalName", "ldapAuth\0"
             VALUE "LegalCopyright", STR_COPYRIGHT
             VALUE "OriginalFilename", "ldapAuth.dll\0"
-            VALUE "ProductName", "UltraVNC ldapAuth\0"
+            VALUE "ProductName", "CopilotVNC ldapAuth\0"
             VALUE "ProductVersion", STR_PRODUCTVERSION
 #if isRC == 1
 			VALUE "SpecialBuild", STR_SPECIALBUILD

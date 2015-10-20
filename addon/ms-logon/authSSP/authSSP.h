@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////
 //  Copyright (C) 2004 Martin Scharpf, B. Braun Melsungen AG. All Rights Reserved.
-//  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by

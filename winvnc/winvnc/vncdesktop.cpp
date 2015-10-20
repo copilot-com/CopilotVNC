@@ -1,4 +1,4 @@
-//  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //  Copyright (C) 2000-2002 Const Kaplinsky. All Rights Reserved.
 //  Copyright (C) 2002 RealVNC Ltd. All Rights Reserved.
 //  Copyright (C) 1999 AT&T Laboratories Cambridge. All Rights Reserved.
@@ -1490,9 +1490,9 @@ vncDesktop::WriteMessageOnScreen(char * tt, BYTE *scrBuff, UINT scrBuffSize)
 	// Select the memory bitmap into the memory DC
 	RECT rect;
 	SetRect(&rect, 0, 0, 300, 120);
-	COLORREF bgcol = RGB(0xff, 0x00, 0x00);
-	COLORREF oldtxtcol = SetTextColor(m_hmemdc, RGB(0, 0, 254));
-	COLORREF oldbgcol = SetBkColor(m_hmemdc, bgcol);
+	COLORREF bgcol =RGB(0x60, 0x95, 0xc1);
+	COLORREF oldtxtcol =SetTextColor(m_hmemdc, RGB(255,255,255));
+	COLORREF oldbgcol  =SetBkColor(  m_hmemdc, bgcol);
 	HBRUSH backgroundBrush = CreateSolidBrush(bgcol);
 
 	HBITMAP oldbitmap;

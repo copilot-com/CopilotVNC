@@ -1,4 +1,4 @@
-//  Copyright (C) 2007 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2007 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //  Copyright (C) 1999 AT&T Laboratories Cambridge. All Rights Reserved.
 //
 //  This file is part of the VNC system.
@@ -1285,7 +1285,7 @@ int WinVNCAppMain()
 {
 	vnclog.Print(LL_INTINFO, VNCLOG("***** DBG - WinVNCAPPMain\n"));
 #ifdef CRASH_ENABLED
-	LPVOID lpvState = Install(NULL,  "rudi.de.vos@skynet.be", "UltraVNC");
+	LPVOID lpvState = Install(NULL,  "rudi.de.vos@skynet.be", "CopilotVNC");
 #endif
 
 	// Set this process to be the last application to be shut down.

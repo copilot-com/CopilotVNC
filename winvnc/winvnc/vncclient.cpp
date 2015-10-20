@@ -1,3 +1,4 @@
+//  Copyright (C) 2016 Copilot.com LLC. All Rights Reserved.
 //  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
 //  Copyright (C) 2015 D. R. Commander. All Rights Reserved.
 //  Copyright (C) 2000-2002 Const Kaplinsky. All Rights Reserved.
@@ -546,7 +547,7 @@ vncClientUpdateThread::run_undetached(void *arg)
 													sz_rfbPalmVNCReSizeFrameBufferMsg,
 													rfbPalmVNCReSizeFrameBuffer);
 				}
-				else // eSVNC-UltraVNC Scaling
+				else // eSVNC-CopilotVNC Scaling
 				{
 					rfbResizeFrameBufferMsg rsmsg;
 					rsmsg.type = rfbResizeFrameBuffer;
@@ -1227,13 +1228,13 @@ BOOL vncClientThread::AuthenticateClient(std::vector<CARD8>& current_auth)
 	bool bSessionSelectActive = std::find(current_auth.begin(), current_auth.end(), rfbUltraVNC_SessionSelect) != current_auth.end();
 
 	if (current_auth.empty()) {
-		// send the UltraVNC auth type to identify ourselves as an UltraVNC server, but only initially
+		// send the CopilotVNC auth type to identify ourselves as an CopilotVNC server, but only initially
 		auth_types.push_back(rfbUltraVNC);
 	}
 
 	// encryption takes priority over everything, for now at least.
 	// would be useful to have a host list to configure these settings.
-	// Include the SecureVNCPluginAuth type for those that support it but are not UltraVNC viewers
+	// Include the SecureVNCPluginAuth type for those that support it but are not CopilotVNC viewers
 	if (!bSecureVNCPluginActive && m_socket->IsUsePluginEnabled() && m_server->GetDSMPluginPointer()->IsEnabled() && m_socket->GetIntegratedPlugin() != NULL)
 	{
 		auth_types.push_back(rfbUltraVNC_SecureVNCPluginAuth_new);

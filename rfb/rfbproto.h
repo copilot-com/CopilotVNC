@@ -1,5 +1,5 @@
 /*
-//  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //  Copyright (C) 2000-2002 Const Kaplinsky. All Rights Reserved.
  *  Copyright (C) 2009 D. R. Commander. All Rights Reserved.
  *  Copyright (C) 2008 Sun Microsystems, Inc. All Rights Reserved.
@@ -166,7 +166,7 @@ typedef struct {
 #define rfbProtocolVersionFormat "RFB %03d.%03d\n"
 #define rfbProtocolMajorVersion 3
 #define rfbProtocolMinorVersion 8
-//#define rfbProtocolMinorVersion 4 // Reserved to UltraVNC ! (as well as "6")
+//#define rfbProtocolMinorVersion 4 // Reserved to CopilotVNC ! (as well as "6")
 
 //adzm 2010-09
 /*
@@ -184,7 +184,7 @@ typedef struct {
  Now the server sends the version, and the viewer negotiates the version to send back.
 
  The viewer handles the minor version as thus:
- (note that 'file transfer' is a generic term for various UltraVNC features, such as chat, etc)
+ (note that 'file transfer' is a generic term for various CopilotVNC features, such as chat, etc)
  4 - mslogon, file transfer
  6 - file transfer
  14 - mslogon, file transfer, SC_PROMPT
@@ -270,7 +270,7 @@ typedef char rfbProtocolVersionMsg[13];	/* allow extra byte for null */
  reserved:                    0x4F
  reserved:                    0x5F
  reserved:                    0x6F
- UltraVNC:                    0x7F
+ CopilotVNC:                    0x7F
  TightVNC:                    0x8F
  reserved:                    0x9F
  reserved:                    0xAF
@@ -305,7 +305,7 @@ typedef char rfbProtocolVersionMsg[13];	/* allow extra byte for null */
 
 //adzm 2010-05-10 - for backwards compatibility with pre-3.8
 #define rfbLegacy_SecureVNCPlugin 17
-#define rfbLegacy_MsLogon 0xfffffffa // UltraVNC's MS-Logon with (hopefully) better security
+#define rfbLegacy_MsLogon 0xfffffffa // CopilotVNC's MS-Logon with (hopefully) better security
 
 // please see ABOVE these definitions for more discussion on authentication
 

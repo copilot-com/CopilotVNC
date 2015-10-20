@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////
-//  Copyright (C) 2002-2013 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002-2013 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -41,8 +41,8 @@ static char service_path[MAX_PATH];
 void monitor_sessions();
 void monitor_sessions_RDP();
 void Restore_after_reboot();
-char service_name[256]="uvnc_service";
-char *app_name = "UltraVNC";
+char service_name[256]="CopilotVNC";
+char *app_name = "CopilotVNC";
 void disconnect_remote_sessions();
 char cmdtext[256];
 extern int clear_console;
@@ -241,7 +241,7 @@ int install_service(void) {
 		if (myerror==ERROR_SERVICE_EXISTS)
 		{
 			//MessageBoxSecure(NULL, "Failed: Already exist",
-            //"UltraVNC", MB_ICONERROR);
+            //"CopilotVNC", MB_ICONERROR);
 			CloseServiceHandle(scm);
 			return 1;
 		}
@@ -304,7 +304,7 @@ int uninstall_service(void) {
     }
     if(serviceStatus.dwCurrentState!=SERVICE_STOPPED) {
         //MessageBoxSecure(NULL, "The service is still running, disable it first",
-        //    "UltraVNC", MB_ICONERROR);
+        //    "CopilotVNC", MB_ICONERROR);
         CloseServiceHandle(service);
         CloseServiceHandle(scm);
 		Sleep(2500);uninstall_service();

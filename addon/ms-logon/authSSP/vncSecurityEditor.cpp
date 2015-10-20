@@ -123,7 +123,7 @@ AUTHSSP_API void vncEditSecurity(HWND hwnd, HINSTANCE hInstance) {
 		g_hInst = hInstance;
 		// Convert ISecurityInformation implementation into property pages
 		vncSecurityInfo* psi = 
-			new vncSecurityInfo(L"UltraVNC Server", L"UltraVNC Server");
+			new vncSecurityInfo(L"CopilotVNC Server", L"CopilotVNC Server");
 		psi->AddRef();
 		
 			HPROPSHEETPAGE hpsp[1];
@@ -135,7 +135,7 @@ AUTHSSP_API void vncEditSecurity(HWND hwnd, HINSTANCE hInstance) {
 			ZeroMemory(&psh, sizeof psh);
 			psh.dwSize		= sizeof psh;
 			psh.hwndParent	= hwnd;
-			psh.pszCaption	= _T("UltraVNC Security Editor");
+			psh.pszCaption	= _T("CopilotVNC Security Editor");
 			psh.nPages		= sizeof hpsp / sizeof *hpsp;
 			psh.phpage		= hpsp;
 			

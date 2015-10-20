@@ -1,4 +1,4 @@
-//  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //  Copyright (C) 2002 RealVNC Ltd. All Rights Reserved.
 //  Copyright (C) 1999 AT&T Laboratories Cambridge. All Rights Reserved.
 //
@@ -62,12 +62,12 @@ const UINT MENU_STOP_RECONNECT_MSG = RegisterWindowMessage("WinVNC.AddStopClient
 const UINT MENU_STOP_ALL_RECONNECT_MSG = RegisterWindowMessage("WinVNC.AddStopAllClient.Message");
 const UINT MENU_REPEATER_ID_MSG = RegisterWindowMessage("WinVNC.AddRepeaterID.Message");
 // adzm 2009-07-05 - Tray icon balloon tips
-// adzm 2010-02-10 - Changed this window message (added 2) to prevent receiving the same message from older UltraVNC builds 
+// adzm 2010-02-10 - Changed this window message (added 2) to prevent receiving the same message from older CopilotVNC builds 
 // which will send this message between processes with process-local pointers to strings as the wParam and lParam
 const UINT MENU_TRAYICON_BALLOON_MSG = RegisterWindowMessage("WinVNC.TrayIconBalloon2.Message");
  
 
-const UINT FileTransferSendPacketMessage = RegisterWindowMessage("UltraVNC.Viewer.FileTransferSendPacketMessage");
+const UINT FileTransferSendPacketMessage = RegisterWindowMessage("CopilotVNC.Viewer.FileTransferSendPacketMessage");
 
 const char *MENU_CLASS_NAME = "WinVNC Tray Icon";
 

@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "omnithread", "omnithread\omnithread_VC2017.vcxproj", "{E52B9956-FE67-47F7-BC4F-67CC5A64B708}"
 EndProject
@@ -68,14 +68,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uvnc_settings", "..\uvnc_se
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblzma", "..\xz-5.2.1\windows\liblzma_VC2017.vcxproj", "{12728250-16EC-4DC6-94D7-E21DD88947F8}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UltraVncX86", "UltraVnc\UltraVnc_VS2017.vdproj", "{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "UltraVncX64", "UltraVnc\UltraVnc_VS2017_X64.vdproj", "{806D86FC-A458-41BE-A727-BF4E62970D19}"
-EndProject
 Global
-	GlobalSection(Performance) = preSolution
-		HasPerformanceSessions = true
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
@@ -518,52 +511,15 @@ Global
 		{12728250-16EC-4DC6-94D7-E21DD88947F8}.XP|Win32.Build.0 = XP|Win32
 		{12728250-16EC-4DC6-94D7-E21DD88947F8}.XP|x64.ActiveCfg = XP|x64
 		{12728250-16EC-4DC6-94D7-E21DD88947F8}.XP|x64.Build.0 = XP|x64
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Debug|Win32.ActiveCfg = Debug
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Debug|Win32.Build.0 = Debug
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Debug|x64.ActiveCfg = Debug
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Debug|x64.Build.0 = Debug
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.IPV6|Win32.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.IPV6|Win32.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.IPV6|x64.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.IPV6|x64.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Release|Win32.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Release|Win32.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Release|x64.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Release|x64.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Vista|Win32.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Vista|Win32.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Vista|x64.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.Vista|x64.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.XP|Win32.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.XP|Win32.Build.0 = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.XP|x64.ActiveCfg = Release
-		{FECB3925-98FD-4A8D-9C47-7BED7CD432D9}.XP|x64.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Debug|Win32.ActiveCfg = Debug
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Debug|Win32.Build.0 = Debug
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Debug|x64.ActiveCfg = Debug
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Debug|x64.Build.0 = Debug
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.IPV6|Win32.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.IPV6|Win32.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.IPV6|x64.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.IPV6|x64.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Release|Win32.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Release|Win32.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Release|x64.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Release|x64.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Vista|Win32.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Vista|Win32.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Vista|x64.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.Vista|x64.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.XP|Win32.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.XP|Win32.Build.0 = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.XP|x64.ActiveCfg = Release
-		{806D86FC-A458-41BE-A727-BF4E62970D19}.XP|x64.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E3E91D32-2795-4A0A-8121-87D3081FB656}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true

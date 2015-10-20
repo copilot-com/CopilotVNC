@@ -51,14 +51,14 @@ BEGIN
 #include "buildtime.h" // defines macro BUILDTIME
             VALUE "Buildtime", BUILDTIME
 #endif
-            VALUE "Comments", "Imports/exports ACL for UltraVNC's MS-Logon II\0"
+            VALUE "Comments", "Imports/exports ACL for CopilotVNC's MS-Logon II\0"
             VALUE "CompanyName", STR_COMPANYNAME
             VALUE "FileDescription", "MSLogonACL\0"
             VALUE "FileVersion", STR_FILEVERSION
             VALUE "InternalName", "MSLogonACL\0"
             VALUE "LegalCopyright", STR_COPYRIGHT
             VALUE "OriginalFilename", "MSLogonACL.exe\0"
-            VALUE "ProductName", "UltraVNC MSLogonACL\0"
+            VALUE "ProductName", "CopilotVNC MSLogonACL\0"
             VALUE "ProductVersion", STR_PRODUCTVERSION
 #if isRC == 1
 			VALUE "SpecialBuild", STR_SPECIALBUILD

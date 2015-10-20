@@ -51,14 +51,14 @@ BEGIN
 #include "buildtime.h" // Defines macro BUILDTIME
             VALUE "Buildtime", BUILDTIME
 #endif
-            VALUE "Comments", "Cross-domain Windows authentication for UltraVNC\0"
+            VALUE "Comments", "Cross-domain Windows authentication for CopilotVNC\0"
             VALUE "CompanyName", STR_COMPANYNAME
-            VALUE "FileDescription", "MS-Logon II for UltraVNC\0"
+            VALUE "FileDescription", "MS-Logon II for CopilotVNC\0"
             VALUE "FileVersion", STR_FILEVERSION
             VALUE "InternalName", "authSSP\0"
             VALUE "LegalCopyright", STR_COPYRIGHT
             VALUE "OriginalFilename", "authSSP.dll\0"
-            VALUE "ProductName", "UltraVNC authSSP\0"
+            VALUE "ProductName", "CopilotVNC authSSP\0"
             VALUE "ProductVersion", STR_PRODUCTVERSION
 #if isRC == 1
 			VALUE "SpecialBuild", STR_SPECIALBUILD

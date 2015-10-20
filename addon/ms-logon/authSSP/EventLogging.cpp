@@ -1,6 +1,6 @@
 /////////////////////////////////////////////////////////////////////////////
 //	Copyright (C) 2004 Martin Scharpf, B. Braun Melsungen AG. All Rights Reserved.
-//  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@
 EventLogging::EventLogging()
 {
 	// returns a handle that links the source to the registry 
-	m_hEventLinker = RegisterEventSource(NULL,_T("UltraVNC"));
+	m_hEventLinker = RegisterEventSource(NULL,_T("CopilotVNC"));
 
 }
 
@@ -58,7 +58,7 @@ void EventLogging::AddEventSourceToRegistry(LPCTSTR lpszSourceName)
     TCHAR szKey[255] =_T("SYSTEM\\CurrentControlSet\\Services\\EventLog\\Application\\");
     TCHAR szServicePath[MAX_PATH];
 
-    lstrcat(szKey, _T("UltraVNC"));
+    lstrcat(szKey, _T("CopilotVNC"));
 
     if(RegCreateKey(HKEY_LOCAL_MACHINE, szKey, &hk) != ERROR_SUCCESS)
     {

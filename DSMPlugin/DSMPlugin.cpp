@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////
-//  Copyright (C) 2002-2013 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002-2013 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -27,7 +27,7 @@
 //
 //////////////////////////////////////////////////////////////////////
 //
-// This class is the interface between UltraVNC and plugins 
+// This class is the interface between CopilotVNC and plugins 
 // (third party dlls) that may be developed (written, exported and 
 // provided by authorized individuals - according to the law of their 
 // country) to alter/modify/process/encrypt rfb data streams between 

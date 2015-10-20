@@ -284,7 +284,7 @@
       <OutputFile>.\Release/vncviewer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>signtool.exe sign /a /n "uvnc bvba" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"
+      <Command>signtool.exe sign /a /n "Copilot.com LLC" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"
 copy "$(LocalDebuggerCommand)" ..\..\..\..\installer</Command>
     </PostBuildEvent>
     <Manifest>
@@ -344,7 +344,7 @@ copy "$(LocalDebuggerCommand)" ..\..\..\..\installer</Command>
       <OutputFile>.\Release/vncviewer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>signtool.exe sign /a /n "uvnc bvba" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"
+      <Command>signtool.exe sign /a /n "Copilot.com LLC" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"
 copy "$(LocalDebuggerCommand)" ..\..\installer\vncviewerXP.exe</Command>
     </PostBuildEvent>
     <Manifest>
@@ -398,7 +398,7 @@ copy "$(LocalDebuggerCommand)" ..\..\installer\vncviewerXP.exe</Command>
       <OutputFile>.\Release/vncviewer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>signtool.exe sign /a /n "uvnc bvba" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"</Command>
+      <Command>signtool.exe sign /a /n "Copilot.com LLC" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"</Command>
     </PostBuildEvent>
     <Manifest>
       <AdditionalManifestFiles>%(AdditionalManifestFiles)</AdditionalManifestFiles>
@@ -452,7 +452,7 @@ copy "$(LocalDebuggerCommand)" ..\..\installer\vncviewerXP.exe</Command>
       <OutputFile>.\Release/vncviewer.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Command>signtool.exe sign /a /n "uvnc bvba" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"
+      <Command>signtool.exe sign /a /n "Copilot.com LLC" /v /t http://timestamp.verisign.com/scripts/timstamp.dll "$(OutDir)$(TargetName)$(TargetExt)"
 copy "$(LocalDebuggerCommand)" ..\..\installer64\vncviewerXP.exe</Command>
     </PostBuildEvent>
     <Manifest>

@@ -68,9 +68,9 @@ FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "OK",IDOK,8,135,54,16
     CONTROL         139,IDC_VNCLOGO,"Static",SS_BITMAP | SS_CENTERIMAGE | SS_SUNKEN,7,5,53,46,WS_EX_TRANSPARENT
-    LTEXT           "UltraVNC Server  1.2.2.1",IDC_VERSION,73,5,145,11
-    LTEXT           "Copyright © 2002-2018 UltraVNC Team\nCopyright © 2001-2002 Sam - eSVNC \nCopyright © 1999-2002 Rudi D. V. - VdaccVNC \nCopyright © 2001 Harakan Software - PalmVNC\nCopyright © 1999-2002 Const. Kaplinsky - TightVNC \n",IDC_NAME,74,27,202,41
-    LTEXT           "For more Information and Links please visit: \nhttp://www.uvnc.com",IDC_WWW,74,135,141,19
+    LTEXT           "CopilotVNC Server 1.2.2.1",IDC_VERSION,73,5,145,11
+    LTEXT           "Copyright © 2005-2018 Copilot.com LLC\nCopyright © 2002-2018 UltraVNC Team\nCopyright © 2001-2002 Sam - eSVNC \nCopyright © 1999-2002 Rudi D. V. - VdaccVNC \nCopyright © 2001 Harakan Software - PalmVNC\nCopyright © 1999-2002 Const. Kaplinsky - TightVNC \n",IDC_NAME,74,27,202,41
+    LTEXT           "For more Information and Links please visit: \nhttps://www.copilot.com",IDC_WWW,74,135,141,19
     LTEXT           "Build:",IDC_BUILDTEXT,74,16,20,10
     LTEXT           "BuildTime",IDC_BUILDTIME,97,16,92,10
     LTEXT           "Copyright © 2002 RealVNC Ltd. - RealVNC\nCopyright © 1999-2002 Tridia Corporation - TridiaVNC \nCopyright © 1994-2001 AT&&T Laboratories Cambridge/Olivetti Research Ltd. - VNC",IDC_STATIC,74,67,203,32
@@ -370,16 +370,16 @@ BEGIN
     BEGIN
         BLOCK "000004b0"
         BEGIN
-            VALUE "Comments", "UltraVNC - Remote Control for all"
-            VALUE "CompanyName", "UltraVNC"
-            VALUE "FileDescription", "VNC server"
+            VALUE "Comments", "CopilotVNC"
+            VALUE "CompanyName", "Copilot.com LLC"
+            VALUE "FileDescription", "CopilotVNC"
             VALUE "FileVersion", "1.2.2.1"
-            VALUE "InternalName", "WinVNC"
-            VALUE "LegalCopyright", "Copyright © 2018 UltraVNC"
-            VALUE "LegalTrademarks", "VNC"
-            VALUE "OriginalFilename", "WinVNC.exe"
+            VALUE "InternalName", "CopilotVNC"
+            VALUE "LegalCopyright", "Copyright © 2018 Copilot.com LLC"
+            VALUE "LegalTrademarks", "Copilot"
+            VALUE "OriginalFilename", "CopilotVNC.exe"
             VALUE "PrivateBuild", "1.2.2.1"
-            VALUE "ProductName", "UltraVNC"
+            VALUE "ProductName", "CopilotVNC"
             VALUE "ProductVersion", "1.2.2.1"
         END
     END

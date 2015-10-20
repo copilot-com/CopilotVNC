@@ -1,5 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////
-//  Copyright (C) 2002-2013 UltraVNC Team Members. All Rights Reserved.
+//  Copyright (C) 2002-2013 Copilot.com LLC, UltraVNCTeamMembers. All Rights Reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the GNU General Public License as published by
@@ -52,7 +52,7 @@ CheckUserPasswordSDUniFn CheckUserPasswordSDUni = 0;
 
 #define MAXSTRING 254
 
-const TCHAR REGISTRY_KEY [] = "Software\\UltraVNC";
+const TCHAR REGISTRY_KEY [] = "Software\\CopilotVNC";
 
 HKEY hkLocal=NULL;
 HKEY hkDefault=NULL;

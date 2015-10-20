@@ -1,3 +1,4 @@
+//  Copyright (C) 2016 Copilot.com LLC. All Rights Reserved.
 //  Copyright (C) 2002 UltraVNC Team Members. All Rights Reserved.
 //  Copyright (C) 2015 D. R. Commander. All Rights Reserved.
 //  Copyright (C) 2002 RealVNC Ltd. All Rights Reserved.
